@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="hero-flexcontainer">
+            <div class="hero-flexchild">
+                <h1>HOME</h1>
+                <p class="hero-score" id="leftscore">0</p>
+                <button class="inc-btn" onclick="lsadd1()">+1</button>
+                <button class="inc-btn" onclick="lsadd2()">+2</button>
+                <button class="inc-btn" onclick="lsadd3()">+3</button>
+            </div>
+            <div class="hero-flexchild">
+                <h1>GUEST</h1>
+                <p class="hero-score" id="rightscore">0</p>
+                <button class="inc-btn" onclick="rsadd1()">+1</button>
+                <button class="inc-btn" onclick="rsadd2()">+2</button>
+                <button class="inc-btn" onclick="rsadd3()">+3</button>
+            </div>
+        </div>
+        <button id="reset-btn" onclick="reset()">RESET</button>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
